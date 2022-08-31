@@ -16,7 +16,7 @@ const App = () => {
         const rationale = {
             title: 'Photo Library Usage Permission',
             message:
-                'We need permission to access the photo library for the smooth functioning of the app.',
+                'We need permission to access the photo library to upload images in the app.',
             buttonPositive: 'Ok',
         };
 
@@ -38,7 +38,7 @@ const App = () => {
                 if (permissionRequestResult !== RESULTS.GRANTED) {
                     Alert.alert(
                         'Grant Permission',
-                        'Please grant photo library permission in settings',
+                        'Please grant photo library permission in settings to upload images.',
                         [
                             {
                                 text: 'Open Settings',
